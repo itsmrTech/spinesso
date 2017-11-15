@@ -18,6 +18,6 @@ module.exports = {
     text:{type:'String'}
     // createdAt: { type: 'datetime', defaultsTo: moment.utc().format() },
   },
-  connection:'localDB'
+  connection:'mainDB'
 };
 

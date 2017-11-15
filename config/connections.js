@@ -64,11 +64,12 @@ module.exports.connections = {
   //   password: 'password', //optional
   //   database: 'your_mongo_db_name_here' //optional
   // },
-  localDB: {
+  mainDB: {
     adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-
+    host: 'ds111066.mlab.com',
+    port: 11066,
+    user:'admin',
+    password:'password',
     database: 'spinesso' //optional
   },
 
