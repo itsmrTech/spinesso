@@ -69,7 +69,7 @@ module.exports.connections = {
     host: 'ds111066.mlab.com',
     port: 11066,
     user:'admin',
-    password:'password',
+    password:'admin',
     database: 'spinesso' //optional
   },
 
